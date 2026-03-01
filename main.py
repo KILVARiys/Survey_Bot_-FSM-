@@ -17,7 +17,7 @@ class FeedBackFromUser(StatesGroup):
     rating = State()
     comment = State()
 
-TOKEN = '8099166692:AAEEO7xWqES_9sBzgZ0UmptwZRPYD-Nbm7Y'
+TOKEN = 'YOUR_TOKEN'
 
 dp = Dispatcher(storage=MemoryStorage())
 
